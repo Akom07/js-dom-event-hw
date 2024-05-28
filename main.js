@@ -24,7 +24,7 @@ let dropDownMenu = dropdown.nextElementSibling;
 dropdown.addEventListener('click', function () {
     this.classList.toggle('unactive');
 
-    if (dropDownMenu.style.display === 'flex') {
+    if (dropDownMenu.style.display == 'flex') {
         dropDownMenu.style.display = 'none';
     } else {
         dropDownMenu.style.display = 'flex';
